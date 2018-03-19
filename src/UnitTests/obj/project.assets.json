@@ -13741,6 +13741,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "C:\\Users\\lsamorim\\Desktop\\test\\src\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
@@ -13787,7 +13790,6 @@
             "version": "[15.5.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true

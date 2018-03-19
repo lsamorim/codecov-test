@@ -10,12 +10,12 @@ namespace UnitTests
         [Fact]
         public void Test1()
         {
-            //var serviceMock = new Mock<Service2>();
-            ////serviceMock.Setup(x => x.Call);
+            var serviceMock = new Mock<Service2>();
+            serviceMock.Setup(x => x.Call()).Returns(()=>1);
 
-            //var service = new Service1(serviceMock.Object);
-            //service.Call();
-            //serviceMock.Verify(x => x.Call(), Times.Once);
+            var service = new Service1(serviceMock.Object);
+            service.Call();
+            serviceMock.Verify(x => x.Call(), Times.Once);
         }
     }
 }
