@@ -21,7 +21,7 @@ namespace MyAPI.Controllers
         public string Get(int id)
         
             return "value";
-        }
+        
 
         // POST api/values
         [HttpPost]
