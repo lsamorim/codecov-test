@@ -19,9 +19,9 @@ namespace MyAPI.Controllers
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
-        
+        {
             return "value";
-        
+        }
 
         // POST api/values
         [HttpPost]
