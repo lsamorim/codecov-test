@@ -13,5 +13,13 @@ namespace UnitTests
 
             Assert.Equal(1, service.Call());
         }
+
+        [Fact]
+        public void Test2()
+        {
+            var service = new Service2();
+
+            Assert.Equal(2, service.Call());
+        }
     }
 }

@@ -6,9 +6,9 @@ namespace MyCore
 {
     public class Service2
     {
-        public void Call()
+        public int Call()
         {
-
+            return 2;
         }
     }
 }
