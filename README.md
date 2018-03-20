@@ -6,4 +6,5 @@ Build passing: https://docs.microsoft.com/en-us/vsts/build-release/actions/ci-bu
 
 [![codecov](https://codecov.io/gh/lsamorim/test/branch/master/graph/badge.svg)](https://codecov.io/gh/lsamorim/test)
 
+
 ---   
