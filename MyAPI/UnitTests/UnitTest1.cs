@@ -15,6 +15,14 @@ namespace UnitTests
         }
 
         [Fact]
+        public void Test12()
+        {
+            var service = new Service();
+
+            Assert.Equal(2, service.Call2());
+        }
+
+        [Fact]
         public void Test2()
         {
             var service = new Service2();
