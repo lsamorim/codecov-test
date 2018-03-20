@@ -10,5 +10,10 @@ namespace MyCore
         {
             return 1;
         }
+
+        public int Call2()
+        {
+            return 2;
+        }
     }
 }
